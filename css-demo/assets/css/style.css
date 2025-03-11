@@ -18,6 +18,27 @@ html {
     max-width:960px;
     margin: 40px auto; /* auto automatically centers text for all screen sizes*/
 
+    .img-right{
+        float:right;
+        border:1px soild #c0c0c0;
+        padding:5px;
+        margin: 10px 0 10px 20px;
+        max-width:30vw;
+    }
+    .img-left{
+        float:left;
+        border:1px soild #c0c0c0;
+        padding:5px;
+        margin: 10px 20px 10px 0px;
+        max-width:30vw;
+    }
+    .img-center{
+        display:block;
+        margin:10px auto;
+        border:1px soild #c0c0c0;
+        padding:5px;
+    }
+
   }
 
   /*  ---------------Responsive Images-----------------  */
@@ -31,6 +52,7 @@ body{
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color:#CDD7DF;
 margin:0;
     
 }
@@ -42,6 +64,7 @@ main{
 
 header.primary{
 background-color:#0D273D;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23CDD7DF' fill-opacity='0.2'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 color:#CDD7DF;
 text-align: center;
 text-shadow:  .5px .5px #CDD7DF;
@@ -99,9 +122,13 @@ nav.primary ul li a{
 
 }
 
+
+
 nav.primary ul li a:hover{
     background-color:rgba(240,248,255,.8);
 }
+
+
 
 #content{}
 
@@ -121,8 +148,11 @@ nav.primary ul li a:hover{
     flex-direction:row;
     justify-content:center;
     gap:30px;
-    border-top: 1px solid #000;
-    padding-top: 40px; /*space text and border*/
+    border-top: 1px solid #0D273D;
+    border-bottom: 1px solid #0D273D;
+    padding: 40px 0; /*space text and border*/
+    
+
 }
 
 #blog article.post{
@@ -131,6 +161,8 @@ nav.primary ul li a:hover{
     font-size:.8rem;
     border-radius: 5px;
     transition: .5s ;
+    background-color:#0D273D;
+    color:#CDD7DF;
 
     
 
@@ -152,12 +184,12 @@ figcaption, time{
     text-transform:uppercase;
     font-size: .6rem;
     /*text-align:center;*/ 
-    color:#0D273D;
+    color:#CDD7DF;
 }
 
 #blog article.post a{
     text-decoration:none;
-    color:#0D273D;
+    color:#CDD7DF;
 
 }
 
@@ -187,13 +219,29 @@ aside article footer{
 
 }
 
+#colophon{
+    background-color:#0D273D;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23CDD7DF' fill-opacity='0.2'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    padding:1px;
+    text-align: center;
+    color:#CDD7DF;
+    font-size: 1.2rem;
+    text-shadow:  .5px .5px #CDD7DF;
+}
 
+#practice h2{
+    color: #0D273D;
+    border-bottom:1px dotted #CDD7DF;
+}
 
+#practice a{
+    color:#0D273D;
+    transition: .5s;
+}
 
-
-
-
-
+#practice a:hover{
+    text-decoration: none;
+}
 
 
 
@@ -215,5 +263,40 @@ aside article footer{
         display:block;
     }
 
-
 }
+
+table{
+    width:100%;
+    border:1px solid #CDD7DF;
+    border-collapse:collapse;
+  }
+  caption{
+    font-weight: bold;
+    margin: 10px;
+    font-size:1.3rem;
+  }
+  tr:nth-child(even){ /*striping chart, even for even rows, odd for odd rows and numbers for number of row*/
+    background-color: rgba(0, 0, 0, 0.1);
+
+  }
+
+    tr:hover{
+        background-color: rgba(0, 0, 0, 0.3);   
+
+    }
+td:nth-child(n+2){
+    text-align:right;
+    }
+
+  th{
+    background-color: #0D273D;
+    color:#CDD7DF;
+    padding:7.5px;
+  }
+
+    
+  
+  td{
+  border:1px solid #CDD7DF;
+  padding:5px;
+  }
