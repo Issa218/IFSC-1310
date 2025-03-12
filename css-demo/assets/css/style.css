@@ -193,6 +193,82 @@ figcaption, time{
 
 }
 
+table{
+    width:100%;
+    border:1px solid #CDD7DF;
+    border-collapse:collapse;
+  }
+  caption{
+    font-weight: bold;
+    margin: 10px;
+    font-size:1.3rem;
+  }
+  tr:nth-child(even){ /*striping chart, even for even rows, odd for odd rows and numbers for number of row*/
+    background-color: rgba(0, 0, 0, 0.1);
+
+  }
+
+    tr:hover{
+        background-color: rgba(0, 0, 0, 0.3);   
+
+    }
+td:nth-child(n+2){
+    text-align:right;
+    }
+
+  th{
+    background-color: #0D273D;
+    color:#CDD7DF;
+    padding:7.5px;
+  }
+
+    
+  
+  td{
+  border:1px solid #CDD7DF;
+  padding:5px;
+  }
+
+#practice ol{
+    list-style-type: lower-roman;
+
+}
+
+#practice ul ul li{
+    list-style-type: square;
+}
+
+#practice dl dd{
+    margin:0;
+    
+}
+
+#practice dl dt{
+    font-weight: bold;
+
+}
+
+dd + dt{
+    margin-top: 20px;
+}
+
+#practice blockquote{
+    border:4px double #0D273D;
+    padding: 20px 40px;
+    margin: 40px 80px;
+    border-radius:4px 20px 4px 20px;
+}
+
+#practice blockquote cite{
+    display:block;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top:1rem;
+
+}
+
+
+
 
 aside[role="complementary"]{
     background-color:#8AA7BC;
@@ -247,8 +323,6 @@ aside article footer{
 
 
 
-
-
 @media screen and (max-width:440px){
   
     nav.primary ul{
@@ -265,38 +339,3 @@ aside article footer{
 
 }
 
-table{
-    width:100%;
-    border:1px solid #CDD7DF;
-    border-collapse:collapse;
-  }
-  caption{
-    font-weight: bold;
-    margin: 10px;
-    font-size:1.3rem;
-  }
-  tr:nth-child(even){ /*striping chart, even for even rows, odd for odd rows and numbers for number of row*/
-    background-color: rgba(0, 0, 0, 0.1);
-
-  }
-
-    tr:hover{
-        background-color: rgba(0, 0, 0, 0.3);   
-
-    }
-td:nth-child(n+2){
-    text-align:right;
-    }
-
-  th{
-    background-color: #0D273D;
-    color:#CDD7DF;
-    padding:7.5px;
-  }
-
-    
-  
-  td{
-  border:1px solid #CDD7DF;
-  padding:5px;
-  }
