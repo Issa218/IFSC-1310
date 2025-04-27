@@ -1,0 +1,20 @@
+body{
+    background-color: #c1cea9;
+    margin: 20px 0 0;
+
+}
+h1{
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 500;
+    font-style: bold;
+    color:beige ;
+      
+}
+
+nav.primary ul li{
+    font-family: "Delicious Handrawn", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: #394931 ;
+
+}
