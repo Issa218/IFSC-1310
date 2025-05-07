@@ -58,27 +58,12 @@ margin:0;
     
 }
 
-main{   
-    /*width: 80vw;*/
-    /*max-width:960px;*/  
-}
-
 header.primary{
 background-color:#022859;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23CDD7DF' fill-opacity='0.2'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
 color:#CDD7DF;
 text-align: center;
-text-shadow:  .5px .5px #CDD7DF;
-/*long form*/
-padding-top: 40px;
-padding-right: 40px;
-padding-bottom: 40px;
-padding-left: 40px;
-/*Single value short hand*/
-padding: 40px;  
-/* T,R,B,L */
-padding: 20px 40px 20px 40px;  
-/* Two Value Top/Bottom / L/R */
+text-shadow:  .5px .5px #8b0000;
 padding: 20px 40px;  /* can be used for margin */
 }
 
@@ -88,7 +73,7 @@ header.primary h1{
     margin:20px 0 0;
 }
 header.primary h1 a{
-    color:#CDD7DF;
+    color:#8b0000;
     text-decoration:none;
 }
 
@@ -126,10 +111,9 @@ nav ul li a{
 
 
 
-nav.primary ul li a:hover{
+nav ul li a:hover{
     background-color:rgba(240,248,255,.8);
 }
-
 
 
 #content{}
@@ -164,7 +148,7 @@ nav.primary ul li a:hover{
     border-radius: 5px;
     transition: .5s ;
     background-color:#0D273D;
-    color:#CDD7DF;
+    color:#CDD7DF;;
 
     
 
@@ -196,9 +180,12 @@ figcaption, time{
 }
 
 table{
-    width:100%;
+    width:80%;
+    margin: 2rem auto;
     border:1px solid #CDD7DF;
     border-collapse:collapse;
+    
+
   }
   caption{
     font-weight: bold;
@@ -270,15 +257,18 @@ dd + dt{
 }
 
 
-
-
 aside[role="complementary"]{
     background-color:#022859;
     padding:40px 0;
-
-
 }
 
+aside .container h2{
+    color:#CDD7DF;
+}
+
+aside .container p{
+    color:#CDD7DF;
+}
 aside .container{
     display:flex;
     flex-direction: row;
@@ -287,7 +277,7 @@ aside .container{
  
 
 aside .container a{
-    color: white;
+    color:#CDD7DF;;
     display:block;
     text-align: right;
 }
