@@ -4,6 +4,11 @@
 
 html {
     box-sizing: border-box;
+     font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.05rem;
   }
   *,
   *:before,
@@ -48,11 +53,13 @@ html {
 /*----------------------------------------------------------------------------------------------------*/
 
 body{
- font-family: "Hammersmith One", sans-serif;
-  font-weight: 500;
+ 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.05rem;
-  color:#0D273D;
+  color:#020f1b;
     background-color:#CDD7DF;
 margin:0;   
 }
@@ -71,7 +78,7 @@ padding: 20px 40px;  /* can be used for margin */
 
 header.primary h1 a{
 color:#8b0000;
-text-shadow: white .4px .4px;
+text-shadow: #8b0000 .4px .4px;
 text-decoration:none;
 font-family: "Volkhov", serif;
 font-weight: 400;
@@ -121,7 +128,7 @@ nav ul li a:hover{
 #content{}
 
 #content h2{
-    color:#2c3e50;
+    color:#020f1b;
     border-bottom: 2px solid #8b0000;
 }
 
@@ -152,7 +159,7 @@ figure img{
 }
 
 #articles .post {
-  background-color: #022859;     
+  background-color: #082b5a;     
   color: #CDD7DF;                   
   border-radius: 5px;           
   box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
